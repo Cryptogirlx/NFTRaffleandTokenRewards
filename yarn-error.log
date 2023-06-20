@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /Users/cryptogirl/.yarn/bin/yarn.js add @gitignore
+  /usr/local/bin/node /Users/cryptogirl/.yarn/bin/yarn.js add .gitignore
 
 PATH: 
   /Users/cryptogirl/.yarn/bin:/Users/cryptogirl/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin:/Users/cryptogirl/.yarn/bin:/Users/cryptogirl/.config/yarn/global/node_modules/.bin:/Users/cryptogirl/.cargo/bin:/Users/cryptogirl/.foundry/bin:/Users/cryptogirl/.foundry/bin:/Users/cryptogirl/.foundry/bin
@@ -14,8 +14,8 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@gitignore: Request "https://registry.yarnpkg.com/@gitignore" returned a 405
-      at Request.params.callback [as _callback] (/Users/cryptogirl/.yarn/lib/cli.js:66154:18)
+  Error: https://registry.yarnpkg.com/.gitignore: Not found
+      at Request.params.callback [as _callback] (/Users/cryptogirl/.yarn/lib/cli.js:66145:18)
       at Request.self.callback (/Users/cryptogirl/.yarn/lib/cli.js:140890:22)
       at Request.emit (node:events:394:28)
       at Request.<anonymous> (/Users/cryptogirl/.yarn/lib/cli.js:141862:10)
@@ -67,6 +67,7 @@ npm manifest:
       "eslint-plugin-promise": "^5.1.0",
       "ethereum-waffle": "^3.2.1",
       "ethers": "^5.5.3",
+      "gitignore": "^0.7.0",
       "hardhat": "^2.14.1",
       "hardhat-gas-reporter": "^1.0.4",
       "keccak256": "^1.0.6",
@@ -5640,6 +5641,11 @@ Lockfile:
     dependencies:
       chalk "^2.4.2"
       node-emoji "^1.10.0"
+  
+  gitignore@^0.7.0:
+    version "0.7.0"
+    resolved "https://registry.yarnpkg.com/gitignore/-/gitignore-0.7.0.tgz#062173df62344a572dfd76d98b59c45108562739"
+    integrity sha512-6iE891OyeYQYVvdoWI/hcxDWJ0sOngSpIRadxLoYbsnZdqWIUsEfx+IrOpW3d/zWBA/eKYvs6ZZx6ogz2wEGoQ==
   
   glob-parent@^5.1.2, glob-parent@~5.1.0, glob-parent@~5.1.2:
     version "5.1.2"
