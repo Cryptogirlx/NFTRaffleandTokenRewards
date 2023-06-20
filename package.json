@@ -38,6 +38,7 @@
     "eslint-plugin-promise": "^5.1.0",
     "ethereum-waffle": "^3.2.1",
     "ethers": "^5.5.3",
+    "gitignore": "^0.7.0",
     "hardhat": "^2.14.1",
     "hardhat-gas-reporter": "^1.0.4",
     "keccak256": "^1.0.6",
